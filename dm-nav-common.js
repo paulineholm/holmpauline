@@ -9,7 +9,7 @@ window.onload = function logoElement(){
     let header = document.getElementById("header");
     header.appendChild(logo);
 
-    header.innerHTML += "<a href='https:/www.linkedin.com/in/paulinasarabryzgiel/' class='personal-link'>Pauline Holm 👩🏻‍💻</a>"
+    header.innerHTML += "<a href='https:/www.linkedin.com/in/paulineholm/' class='personal-link'>Pauline Holm 👩🏻‍💻</a>"
 
     // Menu 
 

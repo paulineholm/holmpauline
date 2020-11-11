@@ -193,51 +193,51 @@ img{
 /* Sidebar */
 
 
-.sidebar {
+.sidebar{
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgba(151, 97, 108, 0.92);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 10px;
     color: blanchedalmond;
-  }
-  
-/*.sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #b81212;
-    display: block;
-    transition: 0.3s;
-}*/
+}
 
 .sideoverlaytxt{
     text-align: center;
-    padding: 10px;
 }
   
 .soclosebtn{
     top: 0;
-    font-size: 40px;
-    padding: 7px;
-    color: red;
+    font-size: 45px;
+    padding: 20px;
+    color: #ce8c7a;
     cursor: pointer;
 }
 
 .soclosebtn:hover{
     color: blanchedalmond;
 }
-
   
 #mainhome{
     transition: margin-right .5s;
 }
+
+.igmini{
+    max-width: 70%;
+    margin: auto 55px;
+    border-radius: 20px;
+}
   
+.sooverskrift{
+    font-family: 'Philosopher', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
 
 /* Footer */
 
