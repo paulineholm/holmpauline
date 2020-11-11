@@ -1,0 +1,408 @@
+
+
+/* Ekstra/ Om mig sektion */
+
+.extra-section{
+    font-size: 22px;
+}
+
+.about-txt{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Projekter */
+
+/* GRID */
+
+.wrapper-grid-work{
+    display: grid;
+    grid-template-columns: repeat(5, 250px);
+    grid-template-rows: repeat(4, 150px);
+    height: 650px;
+    width: 500px;
+    grid-template-areas: 
+    "a c d d g"
+    "a c d d g"
+    "b b e e f"
+    "b b e e f"
+    ;
+    margin: 20px 85px;
+}
+
+.one-work{
+    grid-area: a;
+}
+
+.project1{
+    padding: 5px 5px;
+    height: 270px;
+}
+
+.two-work{
+    grid-area: b;
+}
+
+.project2{
+    padding: 5px 5px;
+    height: 280px;
+    width: 550px;
+    
+}
+
+.three-work{
+    grid-area: c;
+}
+
+.project3{
+    padding: 5px 5px;
+    height: 285px;
+}
+
+.four-work{
+    grid-area: d;
+}
+
+.project4{
+    padding: 5px 5px;
+    height: 275px;
+    width: 550px;
+}
+
+.five-work{
+    grid-area: e;
+}
+
+.project5{
+    padding: 5px 5px;
+    height: 280px;
+    width: 550px; 
+}
+
+.six-work{
+    grid-area: f;
+}
+
+.project6{
+    padding: 5px 5px;
+    height: 273px;
+    width: 300px;
+}
+
+.extra-work{
+    grid-area: g;
+    background-color: #d2bfbd;
+}
+
+.extra-work p{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+/* Styling af grid containers */
+
+.border-one-style{
+    border: 3px solid #96626c;
+    margin: 5px;
+}
+
+.border-two-style{
+    border: 4.5px solid #d69e8e;
+    margin: 10px;
+}
+
+.border-three-style{
+    border: 4px solid #cdc9c5;
+    margin: 7px;
+}
+
+.border-four-style{
+    border: 3.5px solid #d2bfbd;
+    margin: 6px;
+}
+
+/* Overlay på projekter */
+
+.project-container{
+    position: relative;
+}
+
+.project-container:hover .project-overlay{
+    width: 100%;
+}
+
+.project-container-bottom:hover .overlay-pfour{
+    height: 100%;
+}
+
+.project-container-top:hover .overlay-ptwo{
+    height: 100%;
+    bottom: 0;
+}
+
+.text{
+    color: black;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 15px;
+    position: absolute;
+    overflow: scroll;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: pre-line;
+}
+
+.p-overlay-set{
+    position: absolute;
+    transition: 1s ease;
+    overflow: hidden;
+}
+
+/* Kasse et */
+
+.overlay-pone{
+    background-color: rgba(50, 70, 99, 0.9);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 100%;  
+}
+
+/* Kasse to */
+
+.overlay-pthree{
+    background-color: rgba(205, 201, 197, 0.7);
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+
+/* Kasse three */
+
+.overlay-pfour{
+    background-color:rgba(150, 98, 108, 0.8);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+}
+
+/* Kasse fire */
+
+.overlay-ptwo{
+    background-color:rgba(150, 98, 108, 0.8);
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+}
+
+/* Kasse fem */
+
+.overlay-pfive{
+    background-color: rgba(205, 201, 197, 0.7);
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+
+/* Kasse seks */
+
+.overlay-psix{
+    background-color: rgba(50, 70, 99, 0.9);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+}
+
+
+/* Uddannelsen */
+
+.border-edu{
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    display: inline-block;
+    margin: 50px 70px 100px 70px;
+    position: relative;
+    overflow: hidden;
+}
+
+.school-overlay{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: opacity 0.25s;
+    z-index: 1;
+}
+
+/* Overlay farver */
+
+.overlay-cba:hover{
+    opacity: 1;
+    background-color: rgba(50, 70, 99, 0.6);
+}
+
+.overlay-eaa:hover{
+    opacity: 1;
+    background-color: rgba(150, 98, 108, 0.7);
+}
+
+.overlay-rts:hover{
+    opacity: 1;
+    background-color: rgba(205, 201, 197, 0.6);
+}
+
+
+.text-edu{
+    color: #fafafa;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.edu-border-color1{
+    border: 5px solid #d69e8e;
+}
+
+.edu-border-color2{
+    border: 5px solid #dad5d1;
+}
+
+.edu-border-color3{
+    border: 5px solid #96626c;
+}
+
+/* Overlays educationen */
+
+
+
+/* Logoer Størrelser */
+
+.school-logo-cba{
+    max-width: 150px;
+    margin: 120px 50px;
+}
+
+.school-logo-eaa{
+    max-width: 130px;
+    margin: 110px 50px;
+}
+
+.school-logo-rts{
+    max-width: 80px;
+    margin: 70px 50px;
+}
+
+/* Kompetencer - expandable */
+
+.entry{
+    padding: 0px;
+}
+
+.expandable{
+    position: relative;
+    max-height: 1em;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.expandable:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.exp .expandable{
+    max-height: 100em;
+}
+
+.exp-txt{
+    margin-left: 70px;
+    margin-right: 70px;
+    color: black;
+}
+
+.exp .expandable:after{
+    display: none;
+}
+
+/* Button indstillinger */
+
+.pc-more{
+    border: none;
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif;
+    background: #f7f7f7;
+    border-radius: 4px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    display: inline-block;
+}
+
+
+.pc-more .more{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.pc-more span:after {
+    content: '«';
+    color:  rgba(43, 67, 90);
+    position: absolute;
+    padding: 0;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .pc-more:hover span {
+    padding-right: 25px;
+  }
+  
+  .pc-more:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.more,
+.less{
+    pointer-events: none;
+}
+
+.more{
+    display: inline;
+}
+
+.less{
+    display: none;
+}
+
+.more{
+    display: none;
+}
+
+.less{
+    display: inline;
+}

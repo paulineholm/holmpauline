@@ -1,0 +1,30 @@
+Styleguide 
+Farver:
+Unmoden fersken: #D69E8E RGB(214, 158, 142)
+short: RGBA(214, 158, 142)
+
+Nedtonet lyserød: #96626C RGB(150, 98, 108)
+short: RGBA(150, 98, 108)
+
+Grå lyserød: #D2BFBD RGB(210, 191, 189)
+short: RGBA(210, 191, 189)
+
+Navy blå: #324663 RGB(50, 70, 99)
+short: RGBA(50, 70, 99)
+
+Nedtonet oliven: #CDC9C5 RGB(205, 201, 197)
+short: RGBA(205, 201, 197)
+
+Røget hvid: #F7F7F7 RGA(247, 247, 247)
+short: RGBA(247, 247, 247)
+
+
+
+
+
+Mørke Lyserød: #97616C
+
+Fonter:
+Generelt DOM - font-family: 'Quicksand', sans-serif;
+Handwriting - font-family: 'Dancing Script', cursive;
+Ekstra til lille bitte detaljer - font-family: 'Philosopher', sans-serif;

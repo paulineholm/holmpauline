@@ -1,0 +1,225 @@
+/* Stylesheet for alle fælles elementer */
+
+/* Resets her gælder for alle sider */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family: 'Quicksand', sans-serif;
+    transition: background-color 1s;
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* Color classer */
+
+/* Fonts */ 
+
+.heading-font{
+    font-size: 30px;
+}
+
+/* Baggrund */
+
+.color-one{
+    background-color: #f7f7f7;
+}
+.color-two{
+    background-color: #D2BFBD;
+}
+
+/* Paddings */
+.sections{
+    padding: 10px;
+    text-align: center;
+}
+
+/* Header */
+
+.header{
+    background-color:#D2BFBD; 
+}
+
+.logo{
+    max-width: 60px;
+    margin: 15px;
+}
+
+.personal-link{
+    color: #97616C;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25.5px;
+    display: inline-block;
+    position: absolute;
+    top: 38px;
+}
+
+.personal-link:hover{
+    color: #ce8c7a;
+}
+
+.dm-menu{
+    list-style: none;
+    position: absolute;
+    display: flex;
+    right: 120px;
+    top: 35px;
+    font-size: 18.5px;
+    text-transform: uppercase;
+}
+
+.dm-menu-item .selected{
+    background-color: aquamarine;
+}
+
+.dm-menu-item a{
+    text-decoration:none;
+    color:#97616C;
+    padding: 30px;
+}
+
+.dm-menu a:hover{
+    color:#ce8c7a;
+}
+
+/* Search */
+
+.search{
+    max-width: 30px;
+    position: sticky;
+    float: right;
+    top: 50px;
+    right: 100px;
+    margin-right: 15px;
+    border: 1px solid #97616C;
+    border-radius: 50%;
+    height: 30px;
+    padding: 3px;
+}
+
+.search:hover{
+    background: rgba(50, 70, 99, 0.4);
+}
+
+.srchoverlay{
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(150, 98, 108, 0.91);
+}
+
+.srchoverlay-content{
+    position: relative;
+    top: 45%;
+    text-align: center;
+    margin: auto 70px;
+}
+
+.srchoverlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: #D2BFBD;
+}
+
+.srchoverlay .closebtn:hover{
+    color: #324663;
+}
+
+.srchoverlay input[type=text] {
+    padding: 25px;
+    font-size: 35px;
+    border: none;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Philosopher', sans-serif;
+    width: 800px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+  }
+
+.srchoverlay input[type=text]:hover{
+    background-color: #f7f7f7;
+}
+
+.srchoverlay button{
+    height: 85px;
+    width: 15%;
+    padding: 15px;
+    background: #ce8c7a;
+    color: rgba(245, 245, 245, 0.7);
+    font-size: 35px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Philosopher', sans-serif;
+}
+
+.srchoverlay button:hover{
+    background: rgba(206, 140, 122, 0.5);
+}
+
+/* Sidebar */
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+    margin-right: 50px;
+}
+  
+  
+  
+
+/* Footer */
+
+.footer{
+    background-color: #cdc9c5;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: #97616C;
+}

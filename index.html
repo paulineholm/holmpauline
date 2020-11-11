@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulina Sara | Portfolio | Forsiden</title>
+    <link rel="icon" type="img/png" href="img/logopure.png">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="common.css">
+</head>
+<body>
+    <header class="header header-home" id="header">
+        <nav class="dm-nav dm-nav-home">
+            <!--Dynamisk NAV-->
+            <!--Ligger i fælles stylesheet-->
+        </nav>
+
+        <!--Search Overlay-->
+        <div class="srchoverlay" id="searchOverlay">
+            <span class="closebtn" id="closesrchbtn" onclick="closeSearch()" title="Close Overlay">
+            x</span>
+            <div class="srchoverlay-content">
+                <form action="#">
+                    <input type="text" placeholder="Hvad er du nysgerrig om?" name="search">
+                    <button type="submit">
+                        Søg
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!--Slut af search overlay ✰-->
+
+        <!--Sidebar-->
+
+        <div class="sideoverlay" id="sideOverlay">
+
+            <span class="sideopenbtn" id="sideOverOpenBtn" onclick="openNav()">&#9776; ✰</span>
+
+            <div id="sideBar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" id="sideOverCloseBtn" onclick="closeNav()">&times;</a>
+               CONTENT
+              </div>
+        </div>
+
+        <!--Slut af sidebaren ✰-->
+
+    </header>
+
+    <!--Forsiden's eget indhold begyndelsen-->
+
+    <main class="main-home main" id="mainhome">
+        <div class="intro-section color-one sections">
+            <!--Intro sektion med billedet (evt. og en kort intro tekst)-->
+            <img src="https://i.picsum.photos/id/837/1400/600.jpg?hmac=2-PnkW24wSlB65_OwigpnrXzfGwnhSCkWQOgZd0Xtk4" alt="">
+            </div>
+
+        <div class="extra-section color-two sections">
+            <!--Potenitelt ekstra sektion til text om mig-->
+            <h2 class="heading-font">| Om mig |</h2>
+            <p class="about-txt">
+            Velkommen til min portfolio!
+            <br>
+            Jeg hedder Paulina Sara og jeg er København-baseret webudvikling elev.
+            <br>
+            Udover for det, jeg specialiserer i markedsføring, ledelsen og forretningsudvikling.
+            <br>
+            Lad os skabe noget sammen!
+            </p>
+            </div>
+
+        <div class="work-section color-one sections">
+            <!--Clickable grid med fake eksempler af skoleprojekter-->
+            <h2 class="heading-font" style="margin-bottom: 50px;">| Projekter |</h2>
+
+            <div class="wrapper-grid-work">
+
+                <div class="one-work border-two-style project-container-left
+                project-container">
+                    <img src="img/project-ternspil.png" alt="" class="project1">
+                    <div class="overlay-pone project-overlay p-overlay-set">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit laboriosam placeat illum excepturi temporibus similique debitis error minima laudantium accusamus eveniet libero aut et ipsam earum iure, recusandae quam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-work border-three-style project-container-top
+                project-container">
+                    <img src="img/project-haj.png" alt="" class="project2">
+                    <div class="overlay-ptwo p-overlay-set">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, expedita voluptatum? Nihil dignissimos illum, quasi nesciunt illo quos neque rem velit consectetur, impedit repudiandae? Eligendi quis placeat cum voluptas alias.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="three-work border-one-style project-container-top
+                project-container">
+                    <img src="img/project-zoo.png" alt="" class="project3">
+                    <div class="overlay-pthree project-overlay p-overlay-set">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, libero dolorem at cum quo suscipit tempore vitae deserunt a in inventore beatae officiis eaque accusantium dolores ut expedita facilis facere.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="four-work border-three-style project-container-bottom
+                project-container">
+                    <img src="img/project-theband.png" alt="" class="project4">
+                    <div class="overlay-pfour p-overlay-set">
+                        <div class="text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reprehenderit quia cumque, suscipit necessitatibus tenetur reiciendis culpa recusandae repellat! Delectus fugit beatae numquam unde a sit voluptas? Commodi, unde ipsa.
+                        </div>
+                    </div>
+                </div>
+                <div class="five-work border-four-style project-container-left
+                project-container">
+                    <img src="img/project-wu.png" alt="" class="project5">
+                    <div class="overlay-pfive project-overlay p-overlay-set">
+                        <div class="text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error repellat qui debitis ad corporis autem optio, labore voluptas velit culpa doloribus recusandae libero perspiciatis commodi quia laboriosam eaque magni hic.
+                        </div>
+                    </div>
+                </div>
+                <div class="six-work border-two-style project-container-right
+                project-container">
+                    <img src="img/project-arne.png" alt="" class="project6">
+                    <div class="overlay-psix project-overlay p-overlay-set">
+                        <div class="text">
+                            Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit. 
+                            Molestias omnis totam accusamus error voluptatibus qui, distinctio, laborum sit quibusdam autem impedit aspernatur quas odit ullam quam saepe delectus expedita eligendi.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="extra-work border-one-style">
+                    <p>Altid i gang med at udvikle nye projekter 👩🏻‍💻</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="education-section color-two sections">
+            <!--kasser med gennemførte uddannelser med overlays over dem med detajlerende informationer-->
+            <h2 class="heading-font">| Uddannelsen |</h2>
+                
+                <div class="one-edu border-edu edu-border-color1">
+                    <img src="img/cba.png" alt="" class="school-logo-cba">
+                    <div class="overlay-cba school-overlay s-overlay-set">
+                        <div class="text-edu">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit laboriosam placeat illum excepturi temporibus similique debitis error minima laudantium accusamus eveniet libero aut et ipsam earum iure, recusandae quam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-edu border-edu edu-border-color2">
+                    <img src="img/eaa.png" alt="" class="school-logo-eaa">
+                    <div class="overlay-eaa school-overlay s-overlay-set">
+                        <div class="text-edu">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit laboriosam placeat illum excepturi temporibus similique debitis error minima laudantium accusamus eveniet libero aut et ipsam earum iure, recusandae quam.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="three-edu border-edu edu-border-color3">
+                    <img src="img/rts.png" alt="" class="school-logo-rts">
+                    <div class="overlay-rts school-overlay s-overlay-set">
+                        <div class="text-edu">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae reprehenderit laboriosam placeat illum excepturi temporibus similique debitis error minima laudantium accusamus eveniet libero aut et ipsam earum iure, recusandae quam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <div class="competences-section color-one sections">
+            <!--Læs mere/mindre animeret kompetencer og detajler-->
+            <h2 class="heading-font">| Kompetencer |</h2>
+
+            <div class="entry">
+                <button class="pc-more">
+                    <span class="more">👩🏻‍💻 Web Development</span>
+                </button>
+                    <div class="expandable">
+                    <p class="exp-txt">Web Development is building, creating and maintaining websites, with focus on design, publishing and programming aspects. Through my current education I develop constantly new, IT-related competences, skills and solutions every single day. My knowledge and fluency in HTML and CSS are broad and progressing, while JavaScript is an everyday, exciting challenge.
+                    </p>
+                    </div>
+                </div>
+        
+                <div class="entry">
+                <button class="pc-more">
+                    <span class="more">❮❯ HTML</span>
+                </button>
+                    <div class="expandable">
+                    <p class="exp-txt"><i>Hypertext Markup Language</i> is a tool for creating the pure content for webpages. Combined with CSS, helps setting up a layout of it, and with added JavaScript, the functionality as well. A short, though broad experience with this mark-up language taught me ability to build responsive and semantic website from the scratch.
+                    </p>
+                    </div>
+                </div>
+        
+                <div class="entry">
+                <button class="pc-more">
+                    <span class="more"># CSS</span>
+                </button>
+                    <div class="expandable">
+                    <p class="exp-txt">With usage of<i>Cascading Style Sheets</i>, developers format the webpages, among others, the design and layout. The visual part of developing a website, is the most exciting, nontheless challenging, and creativity-stimulating process for me. Deepening my curiosity about design, layouts, color palettes is simply a pleasure.
+                    </p>
+                    </div>
+                </div>
+        
+                <div class="entry">
+                    <button class="pc-more">
+                        <span class="more">🤹🏼 JavaScript</span>
+                    </button>
+                        <div class="expandable">
+                        <p class="exp-txt">JavaScript is one of the core technologies to be found nowadays. It is in constant process of development and therefore, in order to keep up, one have to update itself and learn constantly. Me myself, being new to this programming language, I struggle every single day to gain even greater understanding and develop my skills.
+                        </p>
+                        </div>
+                    </div>
+        
+                <div class="entry">
+                <button class="pc-more">
+                    <span class="more">❓PHP</span>
+                </button>
+                    <div class="expandable">
+                    <p class="exp-txt">
+
+                    </p>
+                    </div>
+                </div>
+        
+                <div class="entry">
+                    <button class="pc-more">
+                        <span class="more">🏗 Business& Product Development🙌🏼 Leadership and Project Management</span>
+                    </button>
+                        <div class="expandable">
+                        <p class="exp-txt">Bachelor's programme has been a journey full of practical usage and assesment of various business and/or concept development oriented models and methods, among them Design Thinking, Effectuation and Lean Start-up. In my Bachelor Thesis, I merged theoretical knowledge regarding innovation and entrepreneurial processes with a foreign market analysis to provide a solution focused on fulfilling that market needs.Being responsible is empowering for me personally, given more control and authority, the motivation comes itself to me. Leadership on a secondary level was disciplined due to my professional experience in the service industry. Project Management on the other hand, I do owe to my education and focus on group work my educations had.
+                        </p>
+                        </div>
+                    </div>
+        
+                <div class="entry">
+                <button class="pc-more">
+                    <span class="more">🇵🇱↔🇩🇰↔🇬🇧 Translations</span>
+                </button>
+                    <div class="expandable">
+                    <p class="exp-txt">Polish being my mothertongue. English being language, which I studied my Bachelor in. Danish being my everyday language as I reside in Denmark. My linguistic profficiency is on a high level, and with a big potential of growing. I already did gain an experience with direct translations between all mentioned languages during my internship at Wedbox ApS as the Polish Bridal Market Developer.
+                    </p>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <!--Forsiden's eget indhold slut-->
+
+    <footer class="footer footer-home">
+        <!--Dynamisk footer-->
+        <!--Ligger i fælles stylesheet-->
+        
+    </footer>
+    <script>
+        function openNav() {
+          document.getElementById("sideOverlay").style.width = "250px";
+          document.querySelector(".main").style.marginRight = "250px";
+          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+        
+        function closeNav() {
+          document.getElementById("sideOverlay").style.width = "1px";
+          document.querySelector(".main").style.marginLeft= "1px";
+          document.body.style.backgroundColor = "white";
+        }
+        </script>
+    <script src="dm-nav-common.js"></script>
+    <script src="dm-footer-common.js"></script>
+    <script src="script-forsiden.js"></script>
+</body>
+</html>
