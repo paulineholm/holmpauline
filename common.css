@@ -46,6 +46,23 @@ img{
     
 }
 
+.search{
+    max-width: 30px;
+    position: sticky;
+    float: right;
+    top: 50px;
+    right: 100px;
+    margin-right: 15px;
+    border: 1px solid #97616C;
+    border-radius: 50%;
+    height: 30px;
+    padding: 3px;
+}
+
+.search:hover{
+    background: rgba(50, 70, 99, 0.4);
+}
+
 .sideopenbtn{
     max-width: 30px;
     position: sticky;
@@ -57,6 +74,10 @@ img{
     border-radius: 50%;
     height: 30px;
     padding: 3px;
+}
+
+.sideopenbtn:hover{
+    background: rgba(50, 70, 99, 0.4);
 }
 
 .logo{
@@ -104,22 +125,6 @@ img{
 
 /* Search */
 
-.search{
-    max-width: 30px;
-    position: sticky;
-    float: right;
-    top: 50px;
-    right: 100px;
-    margin-right: 15px;
-    border: 1px solid #97616C;
-    border-radius: 50%;
-    height: 30px;
-    padding: 3px;
-}
-
-.search:hover{
-    background: rgba(50, 70, 99, 0.4);
-}
 
 .srchoverlay{
     height: 100%;
@@ -198,29 +203,36 @@ img{
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 10px;
+    color: blanchedalmond;
   }
   
-.sidebar a {
+/*.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #b81212;
     display: block;
     transition: 0.3s;
-}
-  
-.sidebar a:hover {
-    color: #f1f1f1;
+}*/
+
+.sideoverlaytxt{
+    text-align: center;
+    padding: 10px;
 }
   
 .soclosebtn{
-    position: absolute;
-    font-size: 36px;
-    margin-right: 50px;
-    margin-top: 100px;
-    color: black;
+    top: 0;
+    font-size: 40px;
+    padding: 7px;
+    color: red;
+    cursor: pointer;
 }
+
+.soclosebtn:hover{
+    color: blanchedalmond;
+}
+
   
 #mainhome{
     transition: margin-right .5s;

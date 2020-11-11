@@ -9,7 +9,7 @@ window.onload = function logoElement(){
     let header = document.getElementById("header");
     header.appendChild(logo);
 
-    header.innerHTML += "<a href='https:/www.linkedin.com/in/paulinasarabryzgiel/' class='personal-link'>Paulina Sara 👩🏻‍💻</a>"
+    header.innerHTML += "<a href='https:/www.linkedin.com/in/paulinasarabryzgiel/' class='personal-link'>Pauline Holm 👩🏻‍💻</a>"
 
     // Menu 
 
@@ -50,7 +50,7 @@ window.onload = function logoElement(){
     let closeBtn = document.getElementById("closesrchbtn");
     search.setAttribute("src", "../img/searchicon.png");
     search.setAttribute("class", "search");
-    search.setAttribute("onclick", "openSearch()");
+    //search.setAttribute("onclick", "openSearch()");
 
     
     header.appendChild(search);
@@ -65,60 +65,40 @@ window.onload = function logoElement(){
 
     // Sidebar
 
+    let sideOverlay = document.getElementById("sideOverlay");
+    let sideBar = document.getElementById("sideBar");
+    let bodyBgStyle = document.body.style.backgroundColor;
+
     let openSidebtn = document.createElement("img");
     //let closeSideBtn = document.getElementById("closesrchbtn");
     openSidebtn.setAttribute("src", "../img/star.png");
     openSidebtn.setAttribute("class", "sideopenbtn");
     openSidebtn.setAttribute("id", "sideOverOpenBtn");
-    //openSidebtn.setAttribute("onclick", "openNav()");
 
     
     header.appendChild(openSidebtn);
     
     function openNav() {
-        document.getElementById("sideOverlay").style.width = "100%";
-        //document.getElementById("sideOverlay").style.height = "100vh";
-        document.getElementById("sideBar").style.width= "350px";
+        sideOverlay.style.width = "100%";
+        sideBar.style.width= "350px";
 
         //document.querySelector(".main").style.marginRight = "350px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        bodyBgStyle = "rgba(0,0,0,0.4)";
     }
 
     openSidebtn.addEventListener("click", function(){
     openNav();
     });
+
+    let closeSidebtn = document.getElementById("closeoverbtn");
       
-      function closeNav() {
-        document.getElementById("sideOverlay").style.width = "1px";
-        document.querySelector(".main").style.marginLeft= "1px";
-        document.body.style.backgroundColor = "white";
+    function closeNav() {
+        sideOverlay.style.width = "0";
+        sideBar.style.width= "0";
+        bodyBgStyle = "white";
       }
 
-      closeNav();
-      
-
-/*
-    // Sidebar
-
-    <span class="sideopenbtn" id="sideOverOpenBtn" onclick="openNav()">✰</span>
-
-
-    let openSideBtn = document.getElementById("sideOverOpenBtn");
-    let closeSideBtn = document.getElementById("sideOverCloseBtn");
-
-    openSideBtn.addEventListener("click",
-
-    function(){
-        document.getElementById("sideOverlay").style.width = "250px";
-        document.getElementById("main").style.marginRight = "250px";
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    closeSidebtn.addEventListener("click",function(){
+        closeNav();
     });
-
-    closeSideBtn.addEventListener("click",
-    function(){
-        document.getElementById("sideOverlay").style.width = "0";
-        document.getElementById("main").style.marginLeft= "0";
-        document.body.style.backgroundColor = "white";
-    }); */
-   
 }
