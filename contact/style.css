@@ -1,0 +1,17 @@
+/* Stylesheet for alle fælles elementer */
+
+/* Resets her gælder for alle sider */
+
+html,body{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family: 'Quicksand', sans-serif;
+    transition: background-color 1s;
+}
+img{
+    max-width: 100%;
+}
+*{
+    box-sizing: border-box;
+}
