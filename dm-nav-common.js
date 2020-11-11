@@ -62,8 +62,46 @@ window.onload = function logoElement(){
     closeBtn.addEventListener("click", function(){
         document.getElementById("searchOverlay").style.display = "none";
     });
+
+    // Sidebar
+
+    let openSidebtn = document.createElement("img");
+    //let closeSideBtn = document.getElementById("closesrchbtn");
+    openSidebtn.setAttribute("src", "../img/star.png");
+    openSidebtn.setAttribute("class", "sideopenbtn");
+    openSidebtn.setAttribute("id", "sideOverOpenBtn");
+    //openSidebtn.setAttribute("onclick", "openNav()");
+
+    
+    header.appendChild(openSidebtn);
+    
+    function openNav() {
+        document.getElementById("sideOverlay").style.width = "100%";
+        //document.getElementById("sideOverlay").style.height = "100vh";
+        document.getElementById("sideBar").style.width= "350px";
+
+        //document.querySelector(".main").style.marginRight = "350px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    openSidebtn.addEventListener("click", function(){
+    openNav();
+    });
+      
+      function closeNav() {
+        document.getElementById("sideOverlay").style.width = "1px";
+        document.querySelector(".main").style.marginLeft= "1px";
+        document.body.style.backgroundColor = "white";
+      }
+
+      closeNav();
+      
+
 /*
     // Sidebar
+
+    <span class="sideopenbtn" id="sideOverOpenBtn" onclick="openNav()">✰</span>
+
 
     let openSideBtn = document.getElementById("sideOverOpenBtn");
     let closeSideBtn = document.getElementById("sideOverCloseBtn");

@@ -14,6 +14,7 @@
         <nav class="dm-nav dm-nav-home">
             <!--Dynamisk NAV-->
             <!--Ligger i fælles stylesheet-->
+            
         </nav>
 
         <!--Search Overlay-->
@@ -36,11 +37,14 @@
 
         <div class="sideoverlay" id="sideOverlay">
 
-            <span class="sideopenbtn" id="sideOverOpenBtn" onclick="openNav()">&#9776; ✰</span>
-
+            
             <div id="sideBar" class="sidebar">
-                <a href="javascript:void(0)" class="closebtn" id="sideOverCloseBtn" onclick="closeNav()">&times;</a>
-               CONTENT
+                <span class="soclosebtn" id="closeoverbtn" onclick="closeNav()" title="Close SideOverlay">
+                x</span>
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam eveniet minus, officiis sunt tempore saepe in. Molestiae error ea odit atque iste animi dolorem quo, recusandae eos et excepturi laudantium accusamus asperiores veniam ex debitis nemo adipisci. At magnam provident velit adipisci quo officia consequuntur impedit expedita, eum numquam hic tempora iusto vero deleniti voluptatem, nesciunt mollitia sapiente non libero, porro illum commodi reprehenderit error? Ducimus repellat fuga inventore nemo dolorem aliquid! Nam, accusantium soluta praesentium ipsam harum fuga, tempore cupiditate esse magnam quod corporis ipsa! Corrupti laudantium deserunt tenetur nobis odit voluptatem eum iste minus praesentium? Unde, atque quia.
+                <!--<a href="javascript:void(0)" class="closebtn" id="sideOverCloseBtn" onclick="closeNav()">
+                </a>-->
+
               </div>
         </div>
 
@@ -259,19 +263,6 @@
         <!--Ligger i fælles stylesheet-->
         
     </footer>
-    <script>
-        function openNav() {
-          document.getElementById("sideOverlay").style.width = "250px";
-          document.querySelector(".main").style.marginRight = "250px";
-          document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-        }
-        
-        function closeNav() {
-          document.getElementById("sideOverlay").style.width = "1px";
-          document.querySelector(".main").style.marginLeft= "1px";
-          document.body.style.backgroundColor = "white";
-        }
-        </script>
     <script src="dm-nav-common.js"></script>
     <script src="dm-footer-common.js"></script>
     <script src="script-forsiden.js"></script>
