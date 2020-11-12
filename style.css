@@ -402,3 +402,9 @@
 .less{
     display: inline;
 }
+
+@media only screen and (max-width: 768px){
+    .about-txt{
+        font-size: 17px;
+    }
+}

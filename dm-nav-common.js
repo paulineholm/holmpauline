@@ -101,4 +101,27 @@ window.onload = function logoElement(){
     closeSidebtn.addEventListener("click",function(){
         closeNav();
     });
+
+    // Media queries dm-menu
+
+    let burgerMenu = document.createElement("img");
+    burgerMenu.setAttribute("src", "../img/burgermenu.png");
+    burgerMenu.setAttribute("class", "burgermenu");
+
+    let menuMobil = document.querySelector(".mobile-menu-overlay");
+    let mmCloseBtn = document.querySelector(".dmoverclosebtn");
+    //search.setAttribute("onclick", "openSearch()");
+
+    
+    header.appendChild(burgerMenu);
+
+    burgerMenu.addEventListener("click", function(){
+        menuMobil.style.display = "block";
+        mmCloseBtn.addEventListener("click", function(){
+            menuMobil.style.display = "none";
+        });
+    });
+
+
+
 }
