@@ -407,4 +407,94 @@
     .about-txt{
         font-size: 17px;
     }
+
+    /* GRID */
+
+    .wrapper-grid-work{
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(4, 150px);
+    height: 1700px;
+    width: 400px;
+    grid-template-areas: 
+    "d d"
+    "d d"
+    "e e"
+    "e e"
+    "a c"
+    "b b"
+    "b b"
+    "f g"
+    ;
+    margin: 20px 50px;
+}
+
+.one-work{
+    grid-area: a;
+}
+
+.project1{
+    padding: 5px 5px;
+    height: 280px;
+}
+
+.two-work{
+    grid-area: b;
+}
+
+.project2{
+    padding: 5px 5px;
+    height: 280px;
+    width: 550px;
+}
+
+.three-work{
+    grid-area: c;
+}
+
+.project3{
+    padding: 5px 5px;
+    height: 285px;
+}
+
+.four-work{
+    grid-area: d;
+}
+
+.project4{
+    padding: 5px 5px;
+    height: 275px;
+    width: 550px;
+}
+
+.five-work{
+    grid-area: e;
+}
+
+.project5{
+    padding: 5px 5px;
+    height: 280px;
+    width: 550px; 
+}
+
+.six-work{
+    grid-area: f;
+}
+
+.project6{
+    padding: 5px 5px;
+    height: 273px;
+    width: 300px;
+    
+}
+
+.extra-work{
+    grid-area: g;
+    background-color: #d2bfbd;
+}
+
+.extra-work p{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
 }
