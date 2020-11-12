@@ -288,25 +288,21 @@
     border: 5px solid #96626c;
 }
 
-/* Overlays educationen */
-
-
-
 /* Logoer Størrelser */
 
 .school-logo-cba{
-    max-width: 150px;
-    margin: 120px 50px;
+    max-width: 250px;
+    margin: 110px 10px;
 }
 
 .school-logo-eaa{
-    max-width: 130px;
-    margin: 110px 50px;
+    max-width: 180px;
+    margin: 96px 45px;
 }
 
 .school-logo-rts{
-    max-width: 80px;
-    margin: 70px 50px;
+    max-width: 140px;
+    margin: 20px 45px;
 }
 
 /* Kompetencer - expandable */

@@ -237,6 +237,13 @@ img{
     font-family: 'Philosopher', sans-serif;
     text-align: center;
     font-size: 25px;
+    margin-top: 45px;
+}
+
+.ff-ul{
+    list-style: circle;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* Footer */
