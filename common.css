@@ -123,17 +123,6 @@ img{
     color:#ce8c7a;
 }
 
-
-
-/* DISPLAY NONE i Header - Mobile optimering */
-
-.burgermenu{
-    display: none;
-}
-.mobile-menu-overlay{
-    display: none;
-}
-
 /* Search */
 
 
@@ -276,67 +265,7 @@ img{
 /* For mobile phones: */
 
 @media only screen and (max-width: 768px) {
-    .dm-menu,
-    .search,
-    #sideOverOpenBtn{
-        display: none;
-    }
-
-    .burgermenu{
-        display: inline-block;
-        max-width: 50px;
-        margin-left: 250px;
-        top: 10px;
-        cursor: pointer;
-    }
-
-    .mobile-menu-overlay{
-        height: 100%;
-        width: 100%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgba(150, 98, 108, 0.91);
-        display: none;
-    }
-    
-    .dmoverclosebtn{
-        font-size: 45px;
-        padding: 10px;
-        cursor: pointer;
-    }
-
-    .dmoverclosebtn:hover{
-        color: #ce8c7a;
-    }
-
-    .mobile-nav-ul{
-        list-style: none;
-        padding: 250px 150px;
-        text-align: center;
-    }
-
-    .mobile-nav-ul a{
-        font-size: 50px;
-        text-decoration: none;
-        color: #cdc9c5;
-        padding-top: 15px;
-    }
-
-    .mobile-nav-ul a:hover{
-        color: red;
-    }
-
-    .logo{
-        max-width: 35px;
-    }
-
-    .personal-link{
-        font-size: 20px;
-        top: 25px;
-    }
-    .heading-font{
-        font-size: 25px;
+    .header{
+        background-color: rgba(50, 70, 99, 0.4);
     }
 }
