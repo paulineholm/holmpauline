@@ -285,7 +285,7 @@ img{
     .burgermenu{
         display: inline-block;
         max-width: 50px;
-        margin-left: 350px;
+        margin-left: 250px;
         top: 10px;
         cursor: pointer;
     }
