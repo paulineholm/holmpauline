@@ -37,6 +37,7 @@
 .project1{
     padding: 5px 5px;
     height: 270px;
+    border-radius: 15px;
 }
 
 .two-work{
@@ -47,6 +48,7 @@
     padding: 5px 5px;
     height: 280px;
     width: 550px;
+    border-radius: 15px;
 }
 
 .three-work{
@@ -56,6 +58,7 @@
 .project3{
     padding: 5px 5px;
     height: 285px;
+    border-radius: 15px;
 }
 
 .four-work{
@@ -66,6 +69,7 @@
     padding: 5px 5px;
     height: 275px;
     width: 550px;
+    border-radius: 15px;
 }
 
 .five-work{
@@ -76,6 +80,7 @@
     padding: 5px 5px;
     height: 280px;
     width: 550px; 
+    border-radius: 15px;
 }
 
 .six-work{
@@ -86,7 +91,7 @@
     padding: 5px 5px;
     height: 273px;
     width: 300px;
-    
+    border-radius: 15px;
 }
 
 .extra-work{
@@ -126,6 +131,7 @@
 
 .project-container{
     position: relative;
+    border-radius: 15px;
 }
 
 .project-container:hover .project-overlay{
