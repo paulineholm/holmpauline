@@ -26,6 +26,7 @@ img{
 
 .heading-font{
     font-size: 30px;
+    font-family: 'Philosopher', sans-serif;
 }
 
 /* Baggrund */
@@ -169,7 +170,7 @@ img{
 }
 
 .srchoverlay .closebtn:hover{
-    color: #324663;
+    color: #96626C;
 }
 
 .srchoverlay input[type=text] {
@@ -192,13 +193,13 @@ img{
     height: 85px;
     width: 15%;
     padding: 15px;
-    background: #ce8c7a;
-    color: rgba(245, 245, 245, 0.7);
-    font-size: 35px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #f7f7f7;
+    font-size: 30px;
     border: none;
     border-radius: 3px;
-    text-transform: uppercase;
-    font-family: 'Philosopher', sans-serif;
+    text-transform: lowercase;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .srchoverlay button:hover{
@@ -215,11 +216,11 @@ img{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: rgba(151, 97, 108, 0.92);
+    background-color: rgba(151, 97, 108, 0.85);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 10px;
-    color: blanchedalmond;
+    color: #f7f7f7;
 }
 
 .sideoverlaytxt{
@@ -230,12 +231,12 @@ img{
     top: 0;
     font-size: 45px;
     padding: 20px;
-    color: #ce8c7a;
+    color: black;
     cursor: pointer;
 }
 
 .soclosebtn:hover{
-    color: blanchedalmond;
+    color: #f7f7f7;
 }
   
 #mainhome{
@@ -245,7 +246,7 @@ img{
 .igmini{
     max-width: 70%;
     margin: auto 55px;
-    border-radius: 20px;
+    border-radius: 8px;
 }
   
 .sooverskrift{
@@ -256,9 +257,10 @@ img{
 }
 
 .ff-ul{
-    list-style: circle;
+    list-style: none;
     padding-left: 50px;
     padding-right: 50px;
+    line-height: 2;
 }
 
 /* Footer */
