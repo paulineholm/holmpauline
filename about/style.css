@@ -26,13 +26,13 @@ img{
 .mypicture{
     max-width: 500px;
     border-radius: 50%;
-    border: 4px solid #324663;
+    border: 4px solid #96626C;
     
 }
 
 .introtext{
     text-align: center;
-    border: 3px solid #324663;
+    /*border: 3px solid #96626C;*/
     border-radius: 10px;
     margin: 55px 70px 55px 0px;
     padding: 20px;
@@ -179,4 +179,82 @@ img{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+/* Slideshow container */
+
+.heading-recom{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Philosopher", sans serif;
+    text-align: center;
+}
+
+.recom-frame{
+    position: relative;
+    background: #D2BFBD;
+}
+  
+/* Slides */
+
+.recomSlides {
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #96626C;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+  
+.next{
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover{
+    background-color: #96626C;
+    color: #f7f7f7;
+}
+  
+.dot-container{
+    text-align: center;
+    padding: 20px;
+    background: #afa2a180;
+}
+  
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+ .active, .dot:hover {
+    background-color: #96626C;
+}
+
+q{
+    font-style: italic;
+    font-size: 17px;
+}
+  
+  /* Add a blue color to the author */
+  .author{
+    color: #96626C;
 }

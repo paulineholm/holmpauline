@@ -132,7 +132,7 @@
         </div>
 
         <div class="inter-section color-one">
-            <h1 class="heading-inter">Interesser</h1>
+            <h1 class="heading-inter">⌊Interesser⌋</h1>
             <div class="inter-section-grid">
             <!--Interesser: grid med pop-ups-->
             <div class="inter-one inter-container">
@@ -193,9 +193,39 @@
         </div>
 
         <div class="recom-section color-two">
-            <h1 class="heading-inter">Anmeldelser</h1>
+            <h1 class="heading-recom">⌈Anmeldelser⌉</h1>
+
             <!--Anmeldelser slide galleri-->
-            <div class="recom-frame"></div>
+            <div class="recom-frame">
+
+                <div class="recomSlides">
+                  <q>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo asperiores corporis reprehenderit dolorem molestias excepturi sint cumque aliquid ratione!</q>
+                  <p class="author">- Lorem ipsum</p>
+                  <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                </div>
+                
+                <div class="recomSlides">
+                  <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia exercitationem sed nihil inventore, quaerat voluptatibus eius aperiam iste sint suscipit.</q>
+                  <p class="author">- Lorem ipsum</p>
+                  <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                </div>
+                
+                <div class="recomSlides">
+                  <q>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis repellendus sunt consequatur cum recusandae culpa iste accusantium magni dolorum officia!</q>
+                  <p class="author">- Lorem A. Ipsum</p>
+                  <p>⭐️ ⭐️ ⭐️ ⭐️ ⭐️</p>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                </div>
+                
+                <div class="dot-container">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
         </div>
     </main>
 
@@ -208,5 +238,6 @@
     </footer>
     <script src="../dm-nav-common.js"></script>
     <script src="../dm-footer-common.js"></script>
+    <script src="slides.js"></script>
 </body>
 </html>
