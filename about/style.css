@@ -42,6 +42,16 @@ img{
     line-height: 2;
 }
 
+.extra-text{
+    font-family: 'Philosopher', sans-serif; 
+    color: #97616C; 
+    font-size: 30px;
+}
+
+.extra-ps{
+    font-size:12px;
+}
+
 
 /* Info sektion */
 
@@ -403,4 +413,35 @@ q{
   /* Add a blue color to the author */
   .author{
     color: #96626C;
+}
+
+@media only screen and (max-width: 768px){
+    .mypicture{
+        max-width: 200px;
+        border: 2px solid #96626C;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+
+    .my-picture{
+        width: 40%;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    .introtext{
+        text-align: right;
+        margin: 10px 0px 50px;
+        padding: 20px;
+        width: 60%;
+        font-size: 10px;
+    }
+
+    .extra-text{
+        font-size: 15px;
+    }
+    
+    .extra-ps{
+        font-size: 10px;
+    }
 }
