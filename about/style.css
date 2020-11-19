@@ -467,7 +467,7 @@ q{
     }
 
     .line-between{
-    height: 1350px;
+    height: 2350px;
     width: 3px;
     }
 
@@ -524,6 +524,7 @@ q{
 .programme-title{
     font-size: 13px;
     line-height: 1;
+    padding-top: 15px;
 }
 
 .school-title{
@@ -558,5 +559,52 @@ q{
     line-height: 1.3;
 }
 
+/* Interesser section */
+
+.heading-inter{
+    font-size: 25px;
+}
+
+.inter-section-grid{
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(3, 170px);
+    height: 100%;
+    width: 100%;
+    grid-template-areas: 
+    "a b"
+    "c d"
+    "e f";
+    margin: 10px 0px 20px 0px;
+}
+
+.inter-img{
+    max-width: 85%;
+}
+
+/* Overlay&grid one */
+
+.inter-one{
+    margin: 10px;
+}
+
+.inter-two{
+    margin: 10px;
+}
+
+.inter-three{
+    margin: 10px;
+}
+
+.inter-four{
+    margin: 10px;
+}
+
+.inter-five{
+    margin: 10px;
+}
+
+.inter-six{
+    margin: 10px;
+}
 
 }
