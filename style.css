@@ -125,6 +125,7 @@
 
 .project-container{
     position: relative;
+    
 }
 
 .project-container:hover .project-overlay{
