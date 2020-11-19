@@ -574,7 +574,7 @@ q{
     "a b"
     "c d"
     "e f";
-    margin: 10px 19.5px 20px 19.5px;
+    margin: 10px 5px 20px 5px;
 }
 
 .inter-img{
@@ -606,5 +606,21 @@ q{
 .inter-six{
     margin: 10px;
 }
+
+/* Anmeldelser */
+
+.heading-recom{
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+q{
+    font-size: 14px;
+}
+
+.author{
+    font-size: 13px;
+}
+
 
 }
