@@ -79,12 +79,63 @@ img{
 }
 
 .business-card{
-    margin: 20px auto;
-    border: 1px solid #97616C;
+    margin: 40px auto;
+    border: 1.5px solid #97616C;
     max-width: 350px;
-
+    background-color: #D2BFBD;
+    display: flex;
+    text-align: start;
 }
+
+.bc-left{
+    width: 50%;
+}
+
+.bc-right{
+    width: 50%;
+    text-align: center;
+    margin: 10px 60px 10px 15px;
+}
+
+.bc-logo{
+    max-width: 70%;
+    margin: 8px auto 0px 8px;
+}
+
 .personal{
     font-family: 'Dancing Script', cursive;
-    font-size: 25px;
+    font-size: 17px;
 }
+
+@media only screen and (max-width: 768px){
+
+.city-frame{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.cphimg{
+    max-width: 300px;
+}
+
+.heading-contact{
+    padding-top: 20px;
+    font-size: 30px;
+    font-family: "Philosopher", sans serif;
+    text-align: center;
+    color: black;
+}
+
+.flex-contact{
+    display: block; 
+}
+.form-side{
+    width: 100%;
+}
+
+.business-card{
+    margin: 40px auto;
+    max-width: 350px;
+}
+
+}
+
