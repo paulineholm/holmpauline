@@ -55,17 +55,25 @@ img{
     padding: 30px;
 }
 
+.info-section p{
+    margin-block-start: 10px;
+    margin-block-end: 0;
+}
+
 .info-sec{
     margin: 30px;
 }
 
 .info-heading{
     font-family: 'Philosopher', sans-serif;
+    padding-top: 20px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .line-between{
     float:left;
-    height: 500px;
+    height: 1350px;
     width: 4px;
     background-color: #F7F7F7;
     margin: 17px 0px;
@@ -73,6 +81,8 @@ img{
 
 
 /* Info resume txt */
+
+/* Erhvervsarbejde/frivillig */
 
 .ea-section{
     padding-bottom: 10px;
@@ -82,7 +92,6 @@ img{
     font-size: 16px;
     color: #7e525b;
     line-height: 0.2;
-    
 }
 
 .dato-title{
@@ -104,7 +113,103 @@ img{
 }
 
 .details-title{
-    font-size: 13px;
+    font-size: 12px;
+}
+
+/* Kurser */
+
+.kurs-section{
+    padding-bottom: 5px;
+}
+
+.kurs-title{
+    font-size: 14px;
+    color: #7e525b;
+    line-height: 0.2;
+}
+
+.kurs-det-title{
+    font-size: 12px;
+    font-style: italic;
+    color: #f7f7f7;
+    line-height: 0.2;
+}
+
+/* Uddannelse */
+
+.uddan-section{
+    padding-bottom: 10px;
+}
+
+.programme-title{
+    font-size: 16px;
+    color: #7e525b;
+    line-height: 1;
+}
+
+.school-title{
+    font-size: 12px;
+    line-height: 1;
+}
+
+.sch-dato-title{
+    font-size: 12px;
+    font-style: italic;
+    color: #f7f7f7;
+    line-height: 0;
+}
+
+.sch-details-title{
+    font-size: 12px;
+}
+
+/* Certificate */
+
+.certif-section{
+    padding-bottom: 10px;
+}
+
+.certif-title{
+    font-size: 16px;
+    color: #7e525b;
+    line-height: 0.2;
+}
+
+.certif-institution{
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.certif-dato{
+    font-size: 11px;
+    font-style: italic;
+    color: #f7f7f7;
+    line-height: 0.2;
+}
+
+.certif-grade{
+    font-size: 12.5px;
+    color: #323232;
+    line-height: 0.1;
+}
+
+/* Language */
+
+.lang-section{
+    padding-bottom: 3px;
+}
+
+.lang-title{
+    font-size: 14px;
+    color: #7e525b;
+    line-height: 0.2;
+}
+
+.lang-det-title{
+    font-size: 12.5px;
+    font-style: italic;
+    color: #323232;
+    line-height: 0.2;
 }
 
 
